@@ -7,8 +7,8 @@ function module.apply(config)
     {
       key = "p",
       mods = "CTRL",
-      action = wezterm.action.PasteFrom "Clipboard"
-    }
+      action = wezterm.action.PasteFrom("Clipboard"),
+    },
   }
 end
 
