@@ -2,11 +2,12 @@ local wezterm = require("wezterm")
 local module = {}
 
 local fontList = {
-  "HackGen Console NF",
+  "HackGen",
+  "Hack Nerd Font",
   "Noto Color Emoji",
   "Noto Sans Symbols",
   "Noto Sans Symbols2",
-  "DejaVu Sans Mono"
+  "DejaVu Sans Mono",
 }
 
 function module.apply(config)
